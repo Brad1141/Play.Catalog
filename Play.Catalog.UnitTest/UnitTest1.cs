@@ -55,6 +55,7 @@ namespace Play.Catalog.UnitTest
             var actual = _itemsController.GetByIdAsync(Guid.NewGuid());
 
             // Assert
+            // Tests that nothing is returned
             Assert.Null(actual);
 
         }
